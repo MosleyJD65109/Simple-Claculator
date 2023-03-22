@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-seriff;
+}
+
+body{
+    background: linear-gradient(rgba(0,0,0,0.2)50%,rgba(0,0,0,0.2)50%), url(Resources/the-office-zoom-background-templates-design-eff9fe1909c6293f17d3fefcf7cd80a1_screen.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+th, td {
+  border: 1px solid black;
+  padding-left: none;
+}
+
+thead th {
+  width: 25%;
+}
+
+.calculator{
+    width: 250px;
+    height: 340px;
+    color: #fff;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10 px;
+    padding: 40px 25px;
+}
+
+
+
+.display-box {
+    width: 100%;
+    height: 100%;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    background: #fff;
+    border-bottom: 1px solid #FFF;
+    border-left: none;
+    border-right: none;
+    color: black;
+    font-size: 25px;
+    letter-spacing: 1px;
+    outline: none;
+}
+
+
+input[type=button] {
+    width:100%;
+    height:100%;
+    font-size: 18px;
+    padding: 20px 55px;
+    background: gray;
+    border: none;
+    margin-top: none;
+    margin-left: none;
+    cursor: pointer;
+}
+
